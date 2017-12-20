@@ -49,3 +49,41 @@ Madrid, Diciembre 2017
 - Precedencia
 - Herencia
 
+## Día 2
+
+### CSS "avanzado"
+
+- Selectores
+    - combinados
+    - de atributo []
+    - pseudoelementos y pseudoclases
+- Variables en CSS Level4
+
+### Estilos aplicados a textos y espacios
+
+- Fuentes
+    - Familias (tipografias)
+    - Tamaños: rem
+    - Estilo y peso
+- Texto
+    - Alineación
+- Modelo de caja
+    - Margen
+    - Padding
+    - Border
+    - Novedades en CSS3
+        - box-shadow
+        - text-shadow
+        - border-radius
+- Colores
+    - Sistemas de definición
+    - Transparencia
+    - Color y Background-color
+- Herramientas CSS
+- Posicionamiento
+    - Esquemas
+        - Estandar
+        - Absoluto y fijo
+        - Relativo 
+    - Modificación al estandar
+        - Float / clear
