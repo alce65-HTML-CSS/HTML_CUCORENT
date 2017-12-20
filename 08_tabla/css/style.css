@@ -1,0 +1,25 @@
+table {
+    margin: 1rem 4rem;
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.colores [scope="col"] {
+    color: blue;
+}
+
+.colores [scope="row"] {
+    color: darkgreen;
+}
+
+.colores [scope] {
+    font-style: italic;
+}
+
+.colores :not([scope]) {
+    color: crimson
+}
+
