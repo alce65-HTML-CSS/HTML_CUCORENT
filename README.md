@@ -87,3 +87,20 @@ Madrid, Diciembre 2017
         - Relativo 
     - Modificación al estandar
         - Float / clear
+
+## Dia 3
+
+- Posicionamiento y Layouts
+    - Position: static (estandar)
+    - Float / clear
+    - Display: Block / Inline / Inline-block / None
+
+- Tablas HTML
+
+- Elementos embebidos
+    - Imágenes
+    - Videos
+    - Audios
+
+- Formularios
+    - Concepto: servidores. Atributos action / method

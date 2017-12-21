@@ -1,0 +1,11 @@
+:required {
+    background-color: bisque
+}
+
+:valid {
+    background-color: white
+}
+
+[name="age"] {
+    background-color: aqua;
+}
