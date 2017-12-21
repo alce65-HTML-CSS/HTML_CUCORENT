@@ -1,0 +1,64 @@
+/* Reseteo de propiedades dentro de nav */
+nav ul, 
+nav li, 
+nav a {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+nav ul {
+    list-style: none;
+}
+nav a { /* Cualquier a dentro de nav */
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    background-color: coral;
+}
+nav li:hover>a {
+    color: brown;
+}
+
+/* Linea en la parte superior del menu */
+nav {
+    border-top: 0.1rem solid;
+}
+
+/* Los li son contenedores, 
+para poder fijar desde ellos posiciones absolutas */
+nav li { 
+    position: relative;
+    }
+
+
+/*	el menú principal */
+
+nav > ul >li { /* El primer nivel del menú  */
+    width: 16%;
+    display: inline-block;
+    /* float:left; */
+}
+
+
+/* =================== */
+/* = submenús        = */
+/* =================== */
+        
+nav li ul { /* El segundo nivel del menú oculto*/
+
+    display: none;
+    
+}
+
+nav li:hover ul { /* El segundo nivel del menú se muestra */
+
+   display: block;
+   position: absolute; 
+   /*Determina que el submenu empuje o no el 
+   contenido del sitio al desplegrase*/
+}
