@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-ico">
+</head>
+<body>
+    <header>
+        <h1>Display FLEX</h1>
+    </header>
+    <!-- div.flex-container>div.flex-item{$}*5 -->
+    <div class="container flex alto">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+    <p>El anterior en un contenedor flex</p>
+    <div class="container inline-flex">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+    <p class="inline-box">El anterior en un contenedor inline-flex</p>
+    <p>Solo con la aplicación del display flex al contenedor, todos sus hijos se comportan como items "flex"</p>
+    <!-- nav>ul.container.flex>(li>a[href="#$"]{Opcion$})*5 -->
+    <nav>
+        <ul class="flex">
+            <li><a href="page1.html">Contenedor</a></li>
+            <li><a href="page2.html">Items</a></li>
+            <li><a href="ejemplo.html">Ejemplo</a></li>
+            <li><a href="#4">Contactos</a></li>
+            <li><a href="#5">About</a></li>
+        </ul>
+    </nav>
+    <p>e.g. sólo con esto se puede conseguir un menu horizontal</p>
+</body>
+</html>

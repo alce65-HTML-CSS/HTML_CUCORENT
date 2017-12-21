@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <style>
+        .properties{
+            flex-direction: column;
+            flex-wrap:  nowrap;
+            justify-content: flex-start;
+            align-items: stretch;
+            align-content: stretch;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Propiedades del contenedor</h1>
+    </header>
+    <p>Codepen: <a href="https://codepen.io/diana_aceves/pen/YWAZaY">Diana Aceves</a></p>
+    <ul>
+        <li>Flex-Direction <b>row</b> - row-reverse - column - column-reverse<br>
+            Establece los ejes y sus direcciones
+        </li>
+        <li>Flex-Wrap: <b>nowrap</b> - wrap - wrap-reverse<br>
+            Que pasa si no tengo espacio para todos los items,<br>
+            suponiendo que el contenedor y los items tienen un tamaño definido<br>
+            Al generarse más de una fila, inicialmente se reparte toda la altura del contenedor en filas,<br>
+            incluso si los items tienen definida una altura menor
+        </li>
+        <li>Justify-Content: <b>flex-start</b> - flex-end - space-between - center - space-around<br>
+            Como reparto el espacio que me sobra en el eje principal<br>
+            suponiendo que el contenedor es más grande que el conjunto de los items
+        </li>
+        <li>Align-Items: flex-start - flex-end - center - baseline - <b>stretch</b><br>
+            Alineación de los items en el eje secundario,<br>
+            suponiendo que el contenedor tiene una altura mayor que los items.<br>
+            Stretch "estira" los items siempre que no tengan altura definida;<br>
+            si la altura de los items está definida se respeta su valor
+        </li>
+        <li>Align-Content: flex-start - flex-end - center - space-between - space-around - <b>stretch</b><br>
+            Cuando hay varias filas de items,<br>
+            alineación de las lineas respecto del eje secundario o transversal<br>
+            o como reparto el espacio vertical entre las filas
+        </li>
+    </ul>
+    <div class="container flex properties">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>

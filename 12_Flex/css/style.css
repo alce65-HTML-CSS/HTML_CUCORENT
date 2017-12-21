@@ -1,0 +1,43 @@
+.container{
+    background-color: salmon;
+    color: white;
+    padding: 1rem;
+}
+
+.alto {
+    height: 12rem;
+}
+.item{
+    font-size: 5rem;
+    padding: 1rem;
+    background-color: deepskyblue;
+    border: 0.1rem solid;
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+.inline-box {
+    display: inline-block;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+nav li{
+    font-size: 1rem;
+    background-color: aquamarine;
+    border: 0.1rem solid;
+    padding: 1rem;
+}
+nav a {
+    color: crimson;
+    font-weight: bold;
+    text-decoration: none;
+}
