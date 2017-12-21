@@ -62,3 +62,9 @@ nav li:hover ul { /* El segundo nivel del menú se muestra */
    /*Determina que el submenu empuje o no el 
    contenido del sitio al desplegrase*/
 }
+
+.estrecho {
+    column-count: 3;
+    column-gap: 5rem;
+    column-rule: 2px black solid;
+}
