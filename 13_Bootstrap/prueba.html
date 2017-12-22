@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+        </div>
+    </div>
+    <form action="">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" name="name" id="name" aria-describedby="helpId" placeholder="">
+          <small id="helpId" class="form-text text-muted">Help text</small>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="isOk" id="isOk" value="checkedValue">
+            Todo correcto
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="curso">Curso</label>
+          <select class="form-control" name="curso" id="curso">
+            <option>HTML</option>
+            <option>CSS3</option>
+            <option>Bootstrap</option>
+          </select>
+        </div>
+        <div>
+            <button class="btn btn-outline-primary" type="submit">Enviar</button>
+            <button class="btn btn-secundary" type="submit">Enviar</button>
+            <button class="btn btn-danger" type="submit">Enviar</button>
+            <button class="btn btn-warning" type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <div class="row mt-5">
+        <ul class="list-group  col-4">
+            <li class="list-group-item">Perro</li>
+            <li class="list-group-item">Gato</li>
+            <li class="list-group-item">Caballo</li>
+        </ul>
+        <p class="col-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum ut modi ex. Nihil delectus aperiam repellendus exercitationem aut asperiores. Mollitia pariatur quas ea consectetur, suscipit repudiandae numquam optio et ut.</p>
+        <div class="col-8">
+            <img class="img-fluid"src="./assets/1024_2000.jpg" alt="">
+        </div>
+        
+    </div>
+    
+</div>
+</body>
+</html>
