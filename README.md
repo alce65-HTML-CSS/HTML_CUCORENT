@@ -104,3 +104,34 @@ Madrid, Diciembre 2017
 
 - Formularios
     - Concepto: servidores. Atributos action / method
+
+## Dia 4
+
+- Controles de Formularios. Elementos estáticos.
+    - Input "text" y sus variantes
+    - TextArea
+    - Botones
+    - Input "checkbox"
+    - Input "radiobutons"
+    - Select / Options
+
+- Validación de Formularios
+    - Require
+    - MaxLength / MinLength / Pattern
+
+- Menús
+    - HTML y CSS básico
+    - Menus desplegables
+    - Navegación basada en imágenes. SVG
+
+- Responsive Web Design (RWD)
+    - Disposiciones fluidas e hibridas
+        (max-width / min-width)
+    - Viewport
+    - Media Queries. Mobile First
+    - Replegado de los menus (JS)
+
+- FlexBox: Display Flex
+    - Contenedor. Flex / Inline-Flex
+    - Propiedades del contenedor
+    - Propiedades de los items.
